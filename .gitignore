@@ -1,0 +1,41 @@
+# Fichiers générés par les systèmes d'exploitation
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration locaux
+*.env
+*.local
+config.php
+settings.php
+
+# Dossiers liés aux bases de données locales ou temporaires
+*.sql-journal
+*.db
+
+# Fichiers de log
+*.log
+*.pid
+
+# Sauvegardes de bases de données
+*.bak
+*.sql.bak
+
+# Fichiers temporaires
+*.tmp
+*.swp
+
+# Fichiers de dépendances
+node_modules/
+vendor/
+
+# Ignorer les dossiers spécifiques aux IDE et éditeurs de texte
+.vscode/
+.idea/
+*.iml
+
+# Ignorer les fichiers binaires
+*.out
+*.exe
+
+# Ignorer les fichiers générés par Git
+*.orig
